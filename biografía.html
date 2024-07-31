@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="ICON" href="https://lh3.googleusercontent.com/pw/AP1GczMw5uLq6JO4C9UmHU22peGsLQ42P1GX_dkmKCXc1TH7C67BT-FfA6kUTeX9Nabfift0DB6htoGY61NVRkVYbiBzlW5Ptcl4LHAmuO4EttmKrSDqO1ukBFmFki2K6Wy9AYR7vCpTddE0ZKPIK7E1_Fvke_X5i0LrjnhH_Oo8RkFttvLvN3V9DFtOfh9Iv9MTz6Fg0wj1fJNdDXgb0XstgjQUeqVK-mRw1GrKl86exJecCKt-wqrqPySd8GZj40wGoKcLOfIFSl_Fd8anJkZAs9-mslIX51Xt__x1gQGDF9cz0v8aguKaz4-8qJmXw-H4av31DDqyjFZZadfkLqUPfZByzW_gVmyyGo6DLf4gKfUrzaGRb6XICdHHgrZB3fJbznG7W6QxeqnaIq4v40EGzsF9Z9eUM32XGvhNZ-YZhfRQZXq2fpb-Kl20AFeQFKKOOhTJSSbOxcys0jHvWEyhHVJ5KRVVyT5xs1C9kfpl9HwVrYJvSz5Z9hE4yvEfJNqt28R01eX4vvnKs2TGsChMFWjbu06IYb-56YvzzD0QQlRKMAs9ol4C0MgZCLq0mKNhPQb9s-favUIZMOB78BzhJjlrV13HpnAlF9YFEfxX1Tg0x5eGeCbsHUYhIB1WWkW_yYsfgli1XI3NDXLga9B6apF7N-CPb1cUeA0FgW9QyLsrr5PUSHu1EQc9poRLFvs-dFKWMxakTHQf400j7SCASdKX_IupcWmdqq8nsqGJkMOMUs19f5qpJWKn460K3jvOsgM4eHMPVHv-liAr81wpAuSfJjXUIJqMX9y4XnCELEpNCPfIZDAuo6B3RUCWh13_D27u5dQvFAUIX4nD4q7GbSTFvDhaCtulc7aVS6cdFk8IQeC653geAcpc16OOj97pgPtFauUulxhVh_ed4sc6uDtOb3ugLEXk9p3cFUu_KC1nkq29i_iuVarbuIDx=w1628-h1064-s-no-gm?authuser=0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles2.css">
+
+    <title>Mi Biografía | David García</title>
+  </head>
+  <body class="lineaTiempo">
+      <!-- Navbar -->
+    <nav
+    class="navbar navbar-expand-lg navbar-light justify-content-center"
+    style="background-color: hsl(217, 40%, 10%)"
+  >
+    <!-- Logo y Texto -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="imgs/logoroyal.png" width="60" height="60" alt="logoroyal" />
+      <span class="ml-2" style="color: white">Academia Royal</span>
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarScroll"
+      aria-controls="navbarScroll"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div
+      class="collapse navbar-collapse justify-content-center"
+      id="navbarScroll"
+    >
+      <ul class="navbar-nav">
+
+        <!-- Inicio -->
+        <li class="nav-item">
+          <a href="index.html" class="menu__link" style="color: white">Inicio</a>
+        </li>
+
+        <!-- Descripcion Personal -->
+        <li class="nav-item">
+          <a href="descperso.html" class="menu__link" style="color: white">Descripción Personal</a>
+        </li>
+
+        <!-- Biografia -->
+        <li class="nav-item">
+          <a href="biografía.html" class="menu__link" style="color: white"><strong>Biografía</strong></a>
+        </li>
+
+        <!-- Vision y Mision -->
+        <li class="nav-item">
+          <a href="MisVis.html" class="menu__link" style="color: white">Visión y Misión</a>
+        </li>
+
+        <!-- Metas -->
+        <li class="nav-item">
+          <a href="metas.html" class="menu__link" style="color: white">Metas</a>
+        </li>
+
+        <!-- Conclusiones -->
+        <li class="nav-item">
+          <a href="conclusion.html" class="menu__link" style="color: white">Conclusiones</a>
+        </li>
+
+        <!-- recuerdos -->
+        <li class="nav-item">
+          <a href="recuerdos.html" class="menu__link" style="color: white">Recuerdos</a>
+        </li>
+
+        <!-- Contacto -->
+        <li class="nav-item">
+          <a href="https://www.instagram.com/dreuiix/" class="menu__link" style="color: white">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+      
+      <!--CONTENIDO-->
+      <div id="timeline"></div>    
+        
+
+      <a class="scrollTop" href="#"><i class="fa fa-chevron-up"></i></a> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script> 
+	<script>
+	       const scrollTop = document.querySelector(".scrollTop"); 
+	       
+	       window.addEventListener("scroll", () => {
+	           if (window.pageYOffset > 100){
+	               scrollTop.classList.add("active");
+	           } else{
+	               scrollTop.classList.remove("active");  
+	           }
+	       })
+	</script>
+
+
+    <div class="container" style="margin-top: 3750px;">
+      <div class="row">
+        <div class="col-4">
+          <center>
+            <img style="border-radius: 20px;" src="imgs/fotomia4.jpg" alt="Foto mía de niño" height="250px">
+            <p style="color: rgb(165, 165, 165); font-size: 35px; font-style: italic;">2010</p>
+          </center>
+        </div>
+        <div class="col-4">
+          <center>
+            <img style="border-radius: 20px;" src="imgs/fotomia2.JPEG" alt="Foto mía de adolecente" height="250px">
+            <p style="color: rgb(165, 165, 165); font-size: 35px; font-style: italic;">2020</p>
+          </center>
+          <br><br><br><br>
+        </div>
+        <div class="col-4">
+          <center>
+            <img style="border-radius: 20px;" src="imgs/fotomia3.png" alt="Foto mía de adolecente" height="250px">
+            <p style="color: rgb(165, 165, 165); font-size: 35px; font-style: italic;">2024</p>
+          </center>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-1"></div>
+
+<div class="col-11 blurred-text-box">
+    <br><br><br><br><br>
+    <h1 style="text-align: center; color: white;">Primer día de nacido</h1>
+      <br>
+    <p class="info3">
+        Nací a los 8 meses, pesando 4 lb, lo que me clasificó como un niño prematuro. Debido a mi prematuridad, tuve que ser ingresado en la unidad de cuidados intensivos neonatales (UCIN) para recibir atención especializada. Durante los primeros días, se me administró leche especial para prematuros para ayudarme a ganar peso y fortalecer mi sistema.
+
+        Los médicos identificaron que sufría de apnea del sueño, una condición en la que mi respiración se detenía brevemente durante el sueño. Esto requirió una monitorización constante y cuidados intensivos para asegurar mi bienestar. Mi equipo de médicos y enfermeras trabajó para estabilizarme y tratar mis problemas respiratorios.
+        
+        La primera semana estuvo llena de evaluaciones y ajustes en mi tratamiento. Se hicieron exámenes regulares para monitorizar mi progreso y asegurarme de que estaba respondiendo bien a las intervenciones médicas. Mis padres estaban en constante comunicación con el equipo médico, recibiendo actualizaciones sobre mi condición y el plan de cuidado.
+        
+        Además, debido a mi prematuridad y a las complicaciones asociadas, se tomaron medidas adicionales para prevenir infecciones y asegurar que mi entorno fuera lo más seguro posible. Esta atención especializada fue fundamental para mi recuperación y mi eventual transición a casa.
+    </p>
+    <br><br>
+</div>
+
+  <br>
+
+  <div class="col-1"></div>
+
+<div class="col-11 blurred-text-box">
+    <br><br><br><br><br>
+    <h1 style="text-align: center; color: white;">Nueve meses de nacido</h1>
+      <br>
+    <p class="info3">
+        <strong>Primer mes:</strong> Estuve en la unidad de cuidados intensivos durante 15 días, recuperándome con leche especial para prematuros. Durante este tiempo, estuve bajo la supervisión de mi pediatra debido a problemas con la apnea del sueño y a varias alergias. Estas alergias no toleraban productos artificiales, por lo que se requerían soluciones naturales.
+        <br><br>
+        Segundo mes: Comencé a adaptarme a mi entorno fuera del hospital. Mi dieta se fue ajustando gradualmente, y empecé a mostrar signos de desarrollo, como aumentar de peso y mejorar en mi capacidad para succionar. Las visitas al pediatra se volvieron más regulares para monitorear mi progreso.
+        <br><br>
+        Tercer mes: Mi crecimiento seguía siendo monitoreado de cerca. Empezaron a aparecer los primeros signos de desarrollo motor, como levantar la cabeza cuando estaba en posición boca abajo. Las alergias seguían siendo un problema, por lo que se seguía un régimen estricto de alimentos naturales.
+        <br><br>
+        Cuarto mes: Las picaduras de mosquito se convertían en úlceras. Debido a esto, mi mamá me llevó a un médico especialista en homeopatía o medicina alternativa. Cada mes, el especialista examinaba a mi mamá, y los resultados de estos exámenes influían en mi tratamiento. Mientras tanto, yo solo me pesaba y me medía para asegurarme de mantener un peso y estatura adecuados para mi edad.
+        <br><br>
+        Quinto mes: Comencé a mostrar mayor interés en mi entorno. Empecé a interactuar más con mi familia y a mostrar habilidades motoras como agarrar objetos. La dieta continuó adaptándose a medida que mi cuerpo requería nuevos nutrientes.
+        <br><br>
+        Sexto mes: Inicié la introducción de alimentos sólidos en mi dieta, además de la leche. Empecé a desarrollar habilidades de coordinación mano-ojo al intentar alcanzar y agarrar juguetes. Las visitas al pediatra incluyeron la evaluación de mi desarrollo físico y motor.
+        <br><br>
+        Séptimo mes: Mi capacidad para sentarme sin apoyo mejoró. Comencé a experimentar con diferentes tipos de alimentos, y mi dieta se diversificó para incluir una variedad más amplia de sólidos. Las interacciones sociales y el juego se volvieron más frecuentes.
+        <br><br>
+        Octavo mes: Empecé a gatear, lo cual marcó un hito importante en mi desarrollo motor. También comencé a balbucear y emitir sonidos más complejos, lo que era un indicio de mi desarrollo del lenguaje. Las visitas al pediatra continuaron para asegurarme de que mi crecimiento se mantuviera en curso.
+        <br><br>
+        Noveno mes: Seguí creciendo y desarrollándome de acuerdo con las expectativas para mi edad. Mi capacidad para explorar mi entorno aumentó, y las habilidades motoras finas, como el agarre y la manipulación de objetos, se fortalecieron. La dieta seguía siendo supervisada para asegurar un desarrollo saludable.
+        <br><br>
+        Hasta los 5 años: Continué desarrollándome físicamente y emocionalmente. Mi crecimiento fue monitoreado regularmente a través de visitas médicas, y se siguió adaptando mi dieta para satisfacer mis necesidades cambiantes. Comencé a caminar y a explorar más activamente mi entorno, y la comunicación con mi familia y otras personas se volvió más sofisticada.
+    </p>
+    <br><br>
+</div>
+
+  <br>
+
+    <div class="row">
+      <div class="col">
+        <center>
+          <a href="MisVis.html">
+            <button type="button" class="btn btn-lg btn-outline-secondary">Visión y Misión</button>
+          </a>
+        </center>
+      </div>
+      <br><br><br><br>
+    </div>
+
+
+      <!--FOOTER-->
+      <div class="contener2">
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2" style="text-align: left;">
+                    <a id="footerContent" href="https://www.facebook.com/AcademiaRoyal"><p class="principal"><strong>Academia Royal</strong></p></a>
+                    
+                  <div class="row">
+                      <div class="col-1"><a href="https://twitter.com/x_uciv"><i class="fa-brands fa-twitter"></i></a></div>
+                      <div class="col-1"><a href="https://www.instagram.com/dreuiix/"><i class="fa-brands fa-instagram"></i></a></div>
+                      <div class="col-1"><a href="https://www.facebook.com/edmaverickmusic"><i class="fa-brands fa-facebook"></i></a></div>
+                      <div class="col-1"><a href="https://www.youtube.com/channel/UCGlb-cK3zzSpOvPHBDh0Nuw"><i class="fa-brands fa-youtube"></i></a></div>
+                      <div class="col-8"></div>
+                  </div>
+              </div>
+              <div class="col-3">
+                 <a id="footerContent" href="https://github.com/ducivv"><p class="principal">© 2024 David Garcia </p></a>
+                 <a id="footerContent" href="https://www.instagram.com/dreuiix/"><p class="principal">Contacto</p></a>
+              </div>
+              <div class="col"></div>
+          </div>
+      </div>
+      <br><br>
+    </div>
+    <script src="js/timeline.js"></script>
+    <script src="https://kit.fontawesome.com/bf64395bb0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>
