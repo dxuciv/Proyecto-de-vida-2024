@@ -3,7 +3,11 @@
 
 ## Descripción
 
-Este proyecto de vida tiene como objetivo presentar una línea de tiempo detallada de los hitos significativos en mi vida hasta la fecha, destacando logros personales, experiencias y momentos clave. El proyecto está desarrollado utilizando HTML, CSS y JavaScript para crear una experiencia interactiva y visualmente atractiva que ilustre la evolución de mi vida a lo largo de los años.
+Este proyecto de vida tiene como objetivo presentar una línea de tiempo detallada de los hitos significativos en mi vida
+ hasta la fecha, destacando logros personales, experiencias y momentos clave.
+
+El proyecto está desarrollado utilizando HTML, CSS y JavaScript para crear una experiencia interactiva y visualmente
+ atractiva que ilustre la evolución de mi vida a lo largo de los años.
 
 
 ## Tecnologías Utilizadas
@@ -34,7 +38,8 @@ Para ver el proyecto en funcionamiento localmente, sigue estos pasos:
 
 ## Uso
 
-Al abrir el archivo `index.html`, verás una línea de tiempo que muestra los hitos de vida ordenados cronológicamente. A medida que te desplazas por la página, los elementos se animan y se vuelven visibles.
+Al abrir el archivo `index.html`, verás una línea de tiempo que muestra los hitos de vida ordenados cronológicamente.
+A medida que te desplazas por la página, los elementos se animan y se vuelven visibles.
 
 ## Ejemplos
 
