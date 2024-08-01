@@ -38,7 +38,7 @@ Para ver el proyecto en funcionamiento localmente, sigue estos pasos:
 
 ## Uso
 
-Al abrir el archivo `index.html`, verás una línea de tiempo que muestra los hitos de vida ordenados cronológicamente.
+Al abrir el archivo `index.html`, verás los hitos de vida ordenados cronológicamente.
 A medida que te desplazas por la página, los elementos se animan y se vuelven visibles.
 
 ## Ejemplos
