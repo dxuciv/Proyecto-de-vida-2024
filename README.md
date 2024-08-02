@@ -76,8 +76,8 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-- **Nombre**: [David García]
-- **Email**: [santigarram17@icloud.com]
+- **Nombre**: [David García](https://github.com/dxuciv)
+- **Email**: santigarram17@icloud.com
 - **GitHub**: [dxuciv](https://github.com/dxuciv)
 
 ---
